@@ -1,4 +1,7 @@
-import java.awt.*;
+package OpgavenTest;
+
+import OpgavenLE12Package.Zin;
+//import
 
 public class OpgavenTester {
     public static void main(String[] args) {
@@ -32,15 +35,18 @@ public class OpgavenTester {
         //System.out.println(Opgave1224.geefRijSommen()[1]);
         //System.out.println(Opgave1224.geefRijSommen()[2]);
         //System.out.println(Opgave1224.geefTotaal());
-        int[] rijLinks = {1, 2, 3, 4};
-        int[] rijRechts = {5, 6, 7, 8};
+        //int[] rijLinks = {1, 2, 3, 4};
+        //int[] rijRechts = {5, 6, 7, 8};
 
-        Point[] ritsRij = ZT6.rits(rijLinks, rijRechts);
-        int x = ritsRij[0].x;
-        int y = ritsRij[0].y;
-        String xString = String.valueOf(x);
-        String yString = String.valueOf(y);
-        System.out.println(xString + yString);
+        //Point[] ritsRij = ZT6.rits(rijLinks, rijRechts);
+        //int x = ritsRij[0].x;
+        //int y = ritsRij[0].y;
+        //String xString = String.valueOf(x);
+        //String yString = String.valueOf(y);
+        //System.out.println(xString + yString);
+        Zin zin1 = new Zin("Gerjan is lief");
+        String woorden[] = zin1.splits();
+        System.out.println(woorden[0] + " " + woorden[1] + " " + woorden[2] + "!");
 
     }
 }
